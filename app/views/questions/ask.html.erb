@@ -1,0 +1,7 @@
+<div class="container">
+  <h1 class="my-5 display-5">Ask your question to the stupid coach...</h1>
+  <form action="/answer" data-turbo="false" class="my-3">
+    <input class="form-control" type="text" name="question" value="<%=params[:question]%>" placeholder="Coach said: ask your fucking question!">
+    <input class="btn btn-primary mt-4" type="submit" value="Ask!">
+  </form>
+</div>

@@ -1,0 +1,24 @@
+<div class="container">
+
+  <h1 class="my-5 display-5">Stupid Coaching Answer</h1>
+
+  <div class="card text-bg-primary mb-3" style="max-width: 25rem;">
+    <div class="card-header">You</div>
+    <div class="card-body">
+      <h5 class="card-title">You asked:</h5>
+      <p class="card-text"><%= @question %></p>
+    </div>
+  </div>
+
+  <div class="card text-bg-dark mb-3" style="max-width: 25rem;">
+    <div class="card-header">Your coach</div>
+    <div class="card-body">
+      <h5 class="card-title">He answer:</h5>
+      <p class="card-text"><%= @answer %></p>
+    </div>
+  </div>
+  <p class="icon-link">
+    <%= link_to "Comeback", "/ask"%>
+    <svg class="bi" aria-hidden="true"><use xlink:href="#arrow-right"></use></svg>
+  </p>
+</div>
